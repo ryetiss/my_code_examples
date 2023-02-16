@@ -151,7 +151,7 @@ void PrintNumberList(struct nodeList *firstNode)
 
 void pushToStack(struct nodeList *tmpListNode)
 {
-    if(first==NULL)		//Yığın boş ise ilk çğe oluşturuluyor
+    if(first==NULL)		//Yığın boş ise ilk öğe oluşturuluyor
     {
             struct nodeStack *ptr;
             ptr=(struct nodeStack *)malloc(sizeof(struct nodeStack));
